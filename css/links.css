@@ -8,16 +8,21 @@
 }
 
 :root {
-    --accentColor: #F5F5F5;
-    --complementColor: #1D85B1;
-    --opponentColor: #DC4141;
-    --secondaryColor: #FCBF49;
+    --a4eBlack: #333333;
+    --a4eWhite: #F5F5F5;
+    --a4eRed: #DC4141;
+    --a4eOrange: #F37D01;
+    --a4eYellow: #FCBF49;
+    --a4eGreen: #4faf25;
+    --a4eBlue: #1D85B1;
+    --a4eIndigo: #511DB1;
+    --a4eViolet: #931DB1;
     --font: HK_Grotesk, arial, sans-serif;
 }
 
 body {
-    color: var(--accentColor);
-    background-color: var(--accentColor);
+    color: var(--a4eWhite);
+    background-color: var(--a4eWhite);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0; 
@@ -34,11 +39,11 @@ body {
     border: 1.5px;
     border-radius: 50%;
     border-style: solid;
-    border-color: var(--secondaryColor);
+    border-color: var(--a4eYellow);
 }
 
 .headerText a {
-    color: var(--opponentColor);
+    color: var(--a4eRed);
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -51,7 +56,7 @@ body {
 }
 
 .paragraphText {
-    color: var(--opponentColor);
+    color: var(--a4eRed);
     font-size: 12px;
     font-weight: 600;
     line-height: 1.25;
@@ -64,7 +69,7 @@ body {
 }
 
 .disclaimerText {
-    color: var(--opponentColor);
+    color: var(--a4eRed);
     font-size: 13px;
     font-weight: 600;
     line-height: 1.25;
@@ -87,25 +92,100 @@ body {
 
 .link {
     display: block;
-    background-color: var(--complementColor);
-    color: var(--accentColor);
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
     font-size: 1rem;
-    border-color: var(--complementColor);
-    border: 1.5px;
+    border: 2px;
     border-style: solid;
     border-radius: 30px;
     transition: 0.5s;
 }
 
-.link:hover {
-    background-color: var(--opponentColor);
-    color: var(--accentColor);
-    border-color: var(--opponentColor);
+.link.r {
+    background-color: var(--a4eRed);
+    border-color: var(--a4eRed);
+    color: var(--a4eWhite);
+}
+
+.link.r:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eRed);
+    color: var(--a4eBlack);
+}
+
+.link.o {
+    background-color: var(--a4eOrange);
+    border-color: var(--a4eOrange);
+    color: var(--a4eWhite);
+}
+
+.link.o:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eOrange);
+    color: var(--a4eBlack);
+}
+
+.link.y {
+    background-color: var(--a4eYellow);
+    border-color: var(--a4eYellow);
+    color: var(--a4eBlack);
+}
+
+.link.y:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eYellow);
+    color: var(--a4eBlack);
+}
+
+.link.g {
+    background-color: var(--a4eGreen);
+    border-color: var(--a4eGreen);
+    color: var(--a4eWhite);
+}
+
+.link.g:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eGreen);
+    color: var(--a4eBlack);
+}
+
+.link.b {
+    background-color: var(--a4eBlue);
+    border-color: var(--a4eBlue);
+    color: var(--a4eWhite);
+}
+
+.link.b:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eBlue);
+    color: var(--a4eBlack);
+}
+
+.link.i {
+    background-color: var(--a4eIndigo);
+    border-color: var(--a4eIndigo);
+    color: var(--a4eWhite);
+}
+
+.link.i:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eIndigo);
+    color: var(--a4eBlack);
+}
+
+.link.v {
+    background-color: var(--a4eViolet);
+    border-color: var(--a4eViolet);
+    color: var(--a4eWhite);
+}
+
+.link.v:hover {
+    background-color: var(--a4eWhite);
+    border-color: var(--a4eViolet);
+    color: var(--a4eBlack);
 }
 
 .section {
@@ -113,7 +193,7 @@ body {
 }
 
 .dividerText {
-    color: var(--opponentColor);
+    color: var(--a4eRed);
     padding: 0 0 20px 0;
     font-size: 16px;
     font-weight: 600;
@@ -127,7 +207,7 @@ body {
 }
 
 .dividerparaText {
-    color: var(--opponentColor);
+    color: var(--a4eRed);
     padding: 0 0 20px 0;
     font-size: 12px;
     font-weight: 600;
@@ -156,7 +236,7 @@ body {
     width: 30px;
     height: 30px;
     font-size: 20px;
-    color: #F5F5F5;
+    color: var(--a4eWhite);
     text-decoration: none;
     text-align: center;
     line-height: 48px;
@@ -167,10 +247,6 @@ body {
 }
 
 .model-1 a {
-    background: #F5F5F5;
+    background: var(--a4eWhite);
     border-radius: 100%;
-}
-
-.fa {
-    color: var(--opponentColor);
 }
