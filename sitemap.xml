@@ -5,39 +5,45 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>https://a4e.org.in/</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/about</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/the-team</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/advisory-panel</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/blog/</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/contact</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://a4e.org.in/accessibility-statement</loc>
-  <lastmod>2021-05-21T04:44:20+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+      <url>
+        <loc>https://a4e.org.in/</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>1.00</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/about</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.90</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/the-team</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.90</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/advisory-panel</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.90</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/blog/</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.90</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/contact</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.80</priority>
+      </url>
+
+      <url>
+        <loc>https://a4e.org.in/accessibility-statement</loc>
+        <lastmod>2021-05-21T04:44:20+00:00</lastmod>
+        <priority>0.80</priority>
+      </url>
 </urlset>
